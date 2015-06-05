@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jquery.blink.js Test</title>
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="../src/jquery.blink.js"></script>
+		
+		<script>
+		jQuery(function($){
+			$('span').blink({color:'white'},{color:'black'},50);
+			$('button').click(function(){
+				$(this).blink({color:'#000'},{color:'red'},100);
+			});
+			$('div').blink({width:200, backgroundColor:'#aaccff', padding:10},{width:300, backgroundColor:'#ffccaa', padding:15},1000);
+		});
+		</script>
+		
+	</head>
+	<body>
+		
+		<h1>We like <span>blink</span>!</h1>
+		
+		<p>
+			<button>Blink on click!</button>
+		</p>
+		
+		<div style="text-align:center; width:200px;padding:10px">Advanced settings!</div>
+		
+	</body>
+</html>
