@@ -1,3 +1,9 @@
+/*!
+ * jQuery Blink Plugin v1.0
+ *
+ * By Arthur Araújo
+ * Released under the GNU license
+ */
 jQuery.fn.extend({
 	blink: function(params1, params2, timer) {
 		return this.each(function() {
