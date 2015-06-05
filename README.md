@@ -6,6 +6,7 @@ Blink Effect for jQuery
 Include script *after* the jQuery library (unless you are packaging scripts somehow else):
 
 ```html
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="/path/to/jquery.blink.js"></script>
 ```
 
